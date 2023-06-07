@@ -1,0 +1,32 @@
+{
+  "name": "hardhat-fund-me",
+  "version": "1.0.0",
+  "description": "Fund Me Smart Contract using Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiumesh/hardhat-fund-me.git"
+  },
+  "author": "umesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiumesh/hardhat-fund-me/issues"
+  },
+  "homepage": "https://github.com/hiumesh/hardhat-fund-me#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "dotenv": "^16.1.4",
+    "hardhat-deploy": "^0.11.30",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2"
+  }
+}
